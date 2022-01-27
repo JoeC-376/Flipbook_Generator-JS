@@ -7,59 +7,155 @@
 </head>
 <style>
   body{
-    background-color: gainsboro;
+    background-color: #313131;
   }
+
+  #flipbook {
+    margin-top: 1.5%;
+    margin-left: 6%;
+    width: 1130px;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  #nav_controls{
+      margin: 1.5%;
+      margin-left: 44%;
+  }
+  
 </style>
-<body>
-  <div id="flipbook">
-    <div style="background-image: url(./images/white-paper_page-0001.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0002.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0003.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0004.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0005.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0006.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0007.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0008.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0009.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0010.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0011.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0012.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0013.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0014.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0015.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0016.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0017.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0018.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0019.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0020.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0021.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0022.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0023.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0024.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0025.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0026.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0027.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0028.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0029.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0030.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0031.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0032.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0033.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0034.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0035.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0036.jpg); background-size: cover;"></div>
-    <div style="background-image: url(./images/white-paper_page-0037.jpg); background-size: cover;"></div>
+    <body> 
+        <h1 style="color: white; margin-left: 43%">FITI5 WHITEPAPER</h1>
+        <div id="flipbook">
+            <div class="pg1" style="background-image: url(./images/white-paper_page-0001.jpg); background-size: cover;"></div>
+            <div class="pg2" style="background-image: url(./images/white-paper_page-0002.jpg); background-size: cover;"></div>
+            <div class="pg3" style="background-image: url(./images/white-paper_page-0003.jpg); background-size: cover;"></div>
+            <div class="pg4" style="background-image: url(./images/white-paper_page-0004.jpg); background-size: cover;"></div>
+            <div class="pg5" style="background-image: url(./images/white-paper_page-0005.jpg); background-size: cover;"></div>
+            <div class="pg6" style="background-image: url(./images/white-paper_page-0006.jpg); background-size: cover;"></div>
+            <div class="pg7" style="background-image: url(./images/white-paper_page-0007.jpg); background-size: cover;"></div>
+            <div class="pg8" style="background-image: url(./images/white-paper_page-0008.jpg); background-size: cover;"></div>
+            <div class="pg9" style="background-image: url(./images/white-paper_page-0009.jpg); background-size: cover;"></div>
+            <div class="pg10" style="background-image: url(./images/white-paper_page-0010.jpg); background-size: cover;"></div>
+            <div class="pg11" style="background-image: url(./images/white-paper_page-0011.jpg); background-size: cover;"></div>
+            <div class="pg12" style="background-image: url(./images/white-paper_page-0012.jpg); background-size: cover;"></div>
+            <div class="pg13" style="background-image: url(./images/white-paper_page-0013.jpg); background-size: cover;"></div>
+            <div class="pg14" style="background-image: url(./images/white-paper_page-0014.jpg); background-size: cover;"></div>
+            <div class="pg15" style="background-image: url(./images/white-paper_page-0015.jpg); background-size: cover;"></div>
+            <div class="pg16" style="background-image: url(./images/white-paper_page-0016.jpg); background-size: cover;"></div>
+            <div class="pg17" style="background-image: url(./images/white-paper_page-0017.jpg); background-size: cover;"></div>
+            <div class="pg18" style="background-image: url(./images/white-paper_page-0018.jpg); background-size: cover;"></div>
+            <div class="pg19" style="background-image: url(./images/white-paper_page-0019.jpg); background-size: cover;"></div>
+            <div class="pg20" style="background-image: url(./images/white-paper_page-0020.jpg); background-size: cover;"></div>
+            <div class="pg21" style="background-image: url(./images/white-paper_page-0021.jpg); background-size: cover;"></div>
+            <div class="pg22" style="background-image: url(./images/white-paper_page-0022.jpg); background-size: cover;"></div>
+            <div class="pg23" style="background-image: url(./images/white-paper_page-0023.jpg); background-size: cover;"></div>
+            <div class="pg24" style="background-image: url(./images/white-paper_page-0024.jpg); background-size: cover;"></div>
+            <div class="pg25" style="background-image: url(./images/white-paper_page-0025.jpg); background-size: cover;"></div>
+            <div class="pg26" style="background-image: url(./images/white-paper_page-0026.jpg); background-size: cover;"></div>
+            <div class="pg27" style="background-image: url(./images/white-paper_page-0027.jpg); background-size: cover;"></div>
+            <div class="pg28" style="background-image: url(./images/white-paper_page-0028.jpg); background-size: cover;"></div>
+            <div class="pg29" style="background-image: url(./images/white-paper_page-0029.jpg); background-size: cover;"></div>
+            <div class="pg30" style="background-image: url(./images/white-paper_page-0030.jpg); background-size: cover;"></div>
+            <div class="pg31" style="background-image: url(./images/white-paper_page-0031.jpg); background-size: cover;"></div>
+            <div class="pg32" style="background-image: url(./images/white-paper_page-0032.jpg); background-size: cover;"></div>
+            <div class="pg33" style="background-image: url(./images/white-paper_page-0033.jpg); background-size: cover;"></div>
+            <div class="pg34" style="background-image: url(./images/white-paper_page-0034.jpg); background-size: cover;"></div>
+            <div class="pg35" style="background-image: url(./images/white-paper_page-0035.jpg); background-size: cover;"></div>
+            <div class="pg36" style="background-image: url(./images/white-paper_page-0036.jpg); background-size: cover;"></div>
+            <div class="pg37" style="background-image: url(./images/white-paper_page-0037.jpg); background-size: cover;"></div>
+            <div class="pg38" style="background-image: url(./images/white-paper_page-0001.jpg); background-size: cover;"></div>
+        </div>
+        
+        <div id="nav_controls">
+            <button id="startdoc"><-</button>
+            <button id="prev_page"> PREV </button>
+            <span id="pgnos" style="margin-left: 2%; color: white;">1</span>   
+            <button id="next_page" style="margin-left: 2%;"> NEXT </button>
+            <button id="enddoc">-></button>
+            <!--
+            <button id="zoom-in">+</button>
+            <buton id="zoom-out">-</button>-->
+        </div>
 
-  </div>
+        <script type="text/javascript">
+            const startButton = document.querySelector("#startdoc");
+            const endButton = document.querySelector("#enddoc");
+            const prevButton = document.querySelector("#prev_page");
+            const nextButton = document.querySelector("#next_page");
+            const showPG = document.querySelector("#pgnos");
+            
+            //magnify = document.querySelector("#zoom-in");
+            //minify = document.querySelector("#zoom-out");
 
-  <script type="text/javascript">
-    $('#flipbook').turn({
-      gradients: true,
-      width: 1250,
-      height: 890,
-      page: 1,
-      duration: 2000
-    })
-  </script>
-</body>
+            /*
+            magnify.addEventListener('click', function() {
+                $("#flipbook").turn("zoom", 1.1, 1);
+            });
+            minify.addEventListener('click', function() {
+                $("#flipbook").turn("zoom", 1, 1.1);
+            })  
+            */
+            
+            $("#flipbook").turn({
+                gradients: true,
+                page: 1,
+                duration: 2000
+            });
+
+
+            const first_page = $("#flipbook").turn("page");
+            const last_page = $("#flipbook").turn("pages");    
+            
+            
+            startButton.addEventListener('click', function() {
+                $("#flipbook").turn("page", first_page);
+                showPG.innerHTML = first_page;
+            });
+
+            endButton.addEventListener('click', function() {
+                $('#flipbook').turn("page", last_page);
+                showPG.innerHTML = last_page;
+            });
+
+            nextButton.addEventListener('click', function() {
+                $("#flipbook").turn("next");
+                showPG.innerHTML = $("#flipbook").turn("page");
+            });
+
+            prevButton.addEventListener('click', function() {
+                $("#flipbook").turn("previous");
+                showPG.innerHTML = $("#flipbook").turn("page");             
+            });
+
+
+            if ( (($("#flipbook").turn("page") == first_page)) ) {
+                $(nextButton).click(function() {
+                    $("#flipbook").animate({left: "275"});
+                });
+
+                $(endButton).click(function() {
+                    $("#flipbook").animate({left: "565"});
+                });
+
+                $(prevButton).click(function() {
+                    $("#flipbook").animate({left: "275"});
+                });
+
+                $(startButton).click(function() {
+                    $("#flipbook").animate({left: "0"});
+                });
+            } 
+
+
+            if ( (($("#flipbook").turn("page") == last_page)) ) {
+                $(prevButton).click(function() {
+                    $("#flipbook").animate({left: "300"});
+                });   
+            }
+
+      
+        </script>
+    </body>
 </html>
